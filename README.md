@@ -8,7 +8,7 @@ $ go get github.com/jmackley79/tf-module-check
 $ cd $GOPATH/src/github.com/jmackley79/tf-module-check
 $ go build
 ```
-This will create an executable file called terraform-module-version-checker in the current directory.
+This will create an executable file called tf-module-check in the current directory.
 
 ## Usage
 To use the program, simply run the executable in the directory containing your Terraform files:
