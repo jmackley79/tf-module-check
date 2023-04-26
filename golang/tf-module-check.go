@@ -93,6 +93,7 @@ func main() {
                     latestVersion := strings.TrimPrefix(release.Name, "v")
                     if latestVersion != module.Version {
                         fmt.Printf("Alert: A newer version (%s) of module %s is available in file %s.\n", latestVersion, module.Name, filePath)
+			// Printing URL to latest rev.
 			fmt.Printf("https://github.com/%s/terraform-aws-%s/releases/latest \n", repoOwner, repoName)
                     }
                 }
