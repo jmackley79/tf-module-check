@@ -4,8 +4,8 @@ This is a simple command-line program written in Go that scans Terraform files i
 ## Installation
 To use this program, you need to have Go installed on your system. Once Go is installed, you can download and build the program using the following commands:
 ```
-$ go get github.com/username/terraform-module-version-checker
-$ cd $GOPATH/src/github.com/username/terraform-module-version-checker
+$ go get github.com/jmackley79/tf-module-check
+$ cd $GOPATH/src/github.com/jmackley79/tf-module-check
 $ go build
 ```
 This will create an executable file called terraform-module-version-checker in the current directory.
@@ -13,7 +13,7 @@ This will create an executable file called terraform-module-version-checker in t
 ## Usage
 To use the program, simply run the executable in the directory containing your Terraform files:
 ```
-$ ./terraform-module-version-checker
+$ ./tf-module-check
 ```
 The program will scan all .tf files in the current directory and its subdirectories and check for module references and versions. If a newer version of a referenced module is available on GitHub, the program will print an alert message.
 
